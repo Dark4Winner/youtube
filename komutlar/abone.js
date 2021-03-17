@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const db = require('quick.db')
 exports.run = async (client, message, args) => { 
 
-let aboneyetkili = '799516093730258958'   //yetkili rolü id bilal ab
+let aboneyetkili = '799516093730258958'   //Abone yetkilisi rolünün id si!
 
   if(!message.member.roles.cache.has(aboneyetkili)) 
   return message.channel.send('Bu Komudu Sadece Yetkililer Kullanabilir.')
@@ -14,11 +14,11 @@ let aboneyetkili = '799516093730258958'   //yetkili rolü id bilal ab
   uye.roles.add(abonerolü)
   },500)
   
-  let abonerolü = '801817841262919696'  // abone rolü id bilal ab
+  let abonerolü = '801817841262919696'  // Abone rolünün id si
   
-  let ceixsa = new Discord.MessageEmbed() 
+  let darkwinner = new Discord.MessageEmbed() 
   .setDescription(`<@&801817841262919696> Rolü başarıyla etiketlediğin kişiye verildi.`) 
-message.channel.send(ceixsa)
+message.channel.send(darkwinner)
 
 };
 
